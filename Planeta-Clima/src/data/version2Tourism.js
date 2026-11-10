@@ -1,0 +1,223 @@
+export const TOURISM_CITIES = [
+  { id: 'caraguatatuba', name: 'Caraguatatuba' },
+  { id: 'ubatuba', name: 'Ubatuba' },
+  { id: 'ilhabela', name: 'Ilhabela' },
+  { id: 'sao-sebastiao', name: 'São Sebastião' },
+];
+
+export const TOURISM_CATEGORIES = ['Hospedagem', 'Gastronomia', 'Lazer'];
+
+export const TOURISM_PLACES = [
+  {
+    id: 'costa-verde-tabatinga',
+    city: 'Caraguatatuba',
+    category: 'Hospedagem',
+    name: 'Costa Verde Tabatinga Hotel',
+    address: 'Rod. Rio-Santos, 2500 — Tabatinga',
+    contact: '(12) 3884-6010',
+    website: 'https://www.tabatingahotel.com.br',
+    hours: 'Recepção 24 horas',
+    description: 'Hotel à beira-mar com estrutura de lazer, piscina, restaurante e acesso à Praia de Tabatinga.',
+    tags: ['hotel', 'praia', 'família'],
+  },
+  {
+    id: 'guaruca',
+    city: 'Caraguatatuba',
+    category: 'Gastronomia',
+    name: 'Guaruçá Frutos do Mar',
+    address: 'Av. Dr. Arthur da Costa Filho, 937 — Centro',
+    contact: 'Consulte horários antes da visita',
+    website: 'https://www.google.com/maps/search/?api=1&query=Guaruca+Frutos+do+Mar+Caraguatatuba',
+    hours: 'Almoço e jantar',
+    description: 'Restaurante tradicional especializado em peixes, camarões e pratos da culinária caiçara.',
+    tags: ['restaurante', 'frutos do mar', 'caiçara'],
+  },
+  {
+    id: 'port-louis',
+    city: 'Caraguatatuba',
+    category: 'Hospedagem',
+    name: 'Pousada Port Louis',
+    address: 'Av. Eurico Gaspar Dutra, 100 — Tabatinga',
+    contact: 'Reservas pelo site oficial',
+    website: 'https://www.google.com/maps/search/?api=1&query=Pousada+Port+Louis+Caraguatatuba',
+    hours: 'Recepção e reservas',
+    description: 'Pousada próxima à Praia de Tabatinga, com piscina e estrutura para casais e famílias.',
+    tags: ['pousada', 'praia', 'família'],
+  },
+  {
+    id: 'morro-santo-antonio',
+    city: 'Caraguatatuba',
+    category: 'Lazer',
+    name: 'Morro Santo Antônio',
+    address: 'Estr. do Santo Antônio — Sumaré',
+    contact: 'Acesso público',
+    website: 'https://www.google.com/maps/search/?api=1&query=Morro+Santo+Antonio+Caraguatatuba',
+    hours: 'Prefira visitas durante o dia',
+    description: 'Mirante com vista panorâmica para a enseada, procurado para caminhada, voo livre e contemplação.',
+    tags: ['mirante', 'trilha', 'natureza'],
+  },
+  {
+    id: 'itamambuca-eco-resort',
+    city: 'Ubatuba',
+    category: 'Hospedagem',
+    name: 'Itamambuca Eco Resort',
+    address: 'Rod. Rio-Santos, km 36 — Itamambuca',
+    contact: '(12) 3834-3000',
+    website: 'https://www.itamambuca.com.br',
+    hours: 'Recepção 24 horas',
+    description: 'Resort integrado à Mata Atlântica, próximo à praia, com esportes, piscinas e atividades ambientais.',
+    tags: ['resort', 'ecoturismo', 'surfe'],
+  },
+  {
+    id: 'raizes',
+    city: 'Ubatuba',
+    category: 'Gastronomia',
+    name: 'Raízes Restaurante e Pizzaria',
+    address: 'Av. Prof. Chico Santos, 72 — Itaguá',
+    contact: 'Consulte horários antes da visita',
+    website: 'https://www.google.com/maps/search/?api=1&query=Raizes+Restaurante+Ubatuba',
+    hours: 'Almoço e jantar',
+    description: 'Opções de cozinha brasileira, frutos do mar e pizzas em uma das regiões turísticas da cidade.',
+    tags: ['restaurante', 'pizza', 'itaguá'],
+  },
+  {
+    id: 'pousada-pataxo',
+    city: 'Ubatuba',
+    category: 'Hospedagem',
+    name: 'Pousada Pataxó',
+    address: 'R. das Américas, 251 — Praia das Toninhas',
+    contact: 'Reservas pelos canais oficiais',
+    website: 'https://www.google.com/maps/search/?api=1&query=Pousada+Pataxo+Ubatuba',
+    hours: 'Recepção e reservas',
+    description: 'Pousada na região das Toninhas, próxima à praia e com ambiente voltado para descanso.',
+    tags: ['pousada', 'toninhas', 'praia'],
+  },
+  {
+    id: 'projeto-tamar',
+    city: 'Ubatuba',
+    category: 'Lazer',
+    name: 'Projeto Tamar Ubatuba',
+    address: 'R. Antônio Atanázio, 273 — Itaguá',
+    contact: '(12) 3832-6202',
+    website: 'https://www.tamar.org.br',
+    hours: 'Consulte a programação oficial',
+    description: 'Centro de visitantes dedicado à conservação das tartarugas marinhas, com tanques e educação ambiental.',
+    tags: ['família', 'educação', 'tartarugas'],
+  },
+  {
+    id: 'dpny',
+    city: 'Ilhabela',
+    category: 'Hospedagem',
+    name: 'DPNY Beach Hotel',
+    address: 'Av. José Pacheco do Nascimento, 7668 — Praia do Curral',
+    contact: '(12) 3894-3000',
+    website: 'https://www.dpny.com.br',
+    hours: 'Recepção 24 horas',
+    description: 'Hotel de praia com spa, gastronomia e estrutura voltada para descanso diante do mar.',
+    tags: ['hotel', 'spa', 'praia'],
+  },
+  {
+    id: 'manjericao',
+    city: 'Ilhabela',
+    category: 'Gastronomia',
+    name: 'Manjericão',
+    address: 'Av. Força Expedicionária Brasileira, 20 — Vila',
+    contact: 'Consulte horários antes da visita',
+    website: 'https://www.google.com/maps/search/?api=1&query=Restaurante+Manjericao+Ilhabela',
+    hours: 'Almoço e jantar',
+    description: 'Restaurante na Vila com pratos brasileiros, peixes, massas e ambiente próximo ao centro histórico.',
+    tags: ['restaurante', 'vila', 'peixes'],
+  },
+  {
+    id: 'vila-das-velas',
+    city: 'Ilhabela',
+    category: 'Hospedagem',
+    name: 'Pousada Vila das Velas',
+    address: 'R. do Guaia, 51 — Barra Velha',
+    contact: 'Reservas pelos canais oficiais',
+    website: 'https://www.google.com/maps/search/?api=1&query=Pousada+Vila+das+Velas+Ilhabela',
+    hours: 'Recepção e reservas',
+    description: 'Pousada de frente para o canal, com piscina e acesso conveniente à região da balsa.',
+    tags: ['pousada', 'canal', 'balsa'],
+  },
+  {
+    id: 'parque-ilhabela',
+    city: 'Ilhabela',
+    category: 'Lazer',
+    name: 'Parque Estadual de Ilhabela',
+    address: 'Praça Cel. Julião, 115 — Vila',
+    contact: '(12) 3896-2585',
+    website: 'https://www.google.com/maps/search/?api=1&query=Parque+Estadual+de+Ilhabela',
+    hours: 'Consulte trilhas e regras de visitação',
+    description: 'Área protegida com trilhas, cachoeiras, Mata Atlântica e orientação para diferentes roteiros naturais.',
+    tags: ['parque', 'trilha', 'cachoeira'],
+  },
+  {
+    id: 'ilha-toque-toque',
+    city: 'São Sebastião',
+    category: 'Hospedagem',
+    name: 'Ilha de Toque Toque Boutique Hotel',
+    address: 'Rod. Dr. Manoel Hyppólito do Rego, 1285 — Toque-Toque Grande',
+    contact: '(12) 3864-9110',
+    website: 'https://www.ilhadetoquetoque.com.br',
+    hours: 'Recepção 24 horas',
+    description: 'Hospedagem boutique em área de Mata Atlântica, com vista para o mar e atmosfera reservada.',
+    tags: ['hotel', 'romântico', 'natureza'],
+  },
+  {
+    id: 'acqua',
+    city: 'São Sebastião',
+    category: 'Gastronomia',
+    name: 'Acqua Restaurante',
+    address: 'Estr. do Camburi, 2000 — Camburi',
+    contact: 'Consulte horários antes da visita',
+    website: 'https://www.google.com/maps/search/?api=1&query=Acqua+Restaurante+Camburi',
+    hours: 'Almoço e jantar',
+    description: 'Gastronomia contemporânea em Camburi, com menu de peixes, frutos do mar e ingredientes brasileiros.',
+    tags: ['restaurante', 'camburi', 'contemporâneo'],
+  },
+  {
+    id: 'porto-mare',
+    city: 'São Sebastião',
+    category: 'Hospedagem',
+    name: 'Pousada Porto Mare',
+    address: 'R. Sebastião Romão César, 400 — Maresias',
+    contact: 'Reservas pelos canais oficiais',
+    website: 'https://www.google.com/maps/search/?api=1&query=Pousada+Porto+Mare+Maresias',
+    hours: 'Recepção e reservas',
+    description: 'Pousada em Maresias com área de lazer e localização próxima à praia e aos serviços do bairro.',
+    tags: ['pousada', 'maresias', 'praia'],
+  },
+  {
+    id: 'maresias',
+    city: 'São Sebastião',
+    category: 'Lazer',
+    name: 'Praia de Maresias',
+    address: 'Av. Dr. Francisco Loup — Maresias',
+    contact: 'Acesso público',
+    website: 'https://www.google.com/maps/search/?api=1&query=Praia+de+Maresias+Sao+Sebastiao',
+    hours: 'Acesso livre; observe as condições do mar',
+    description: 'Praia conhecida pelo surfe, ampla faixa de areia, serviços turísticos e vida noturna.',
+    tags: ['praia', 'surfe', 'passeio'],
+  },
+];
+
+export function getTourismMapUrl(place) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name}, ${place.address}, ${place.city}`)}`;
+}
+
+export function searchTourismPlaces(query) {
+  const normalized = query
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase();
+  const terms = normalized.split(/\s+/).filter(Boolean);
+
+  return TOURISM_PLACES.filter((place) => {
+    const content = `${place.name} ${place.city} ${place.category} ${place.address} ${place.description} ${place.tags.join(' ')}`
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+    return terms.every((term) => content.includes(term));
+  });
+}
